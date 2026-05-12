@@ -23,6 +23,13 @@ h1 {
   letter-spacing: 3px;
 }
 
+.stop{
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  padding: 25px;
+  border-radius: 50px;
+}
+
 /* 1. Reset the List Styling */
 .keys {
   display: flex;
