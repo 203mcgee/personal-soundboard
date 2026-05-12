@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Soundboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>JS Soundboard</h1>
+
+        <section id="soundboard">
+            <ul class="keys">
+                <li data-key="a" class="key">
+                    <kbd>A</kbd>
+                    <span class="sound">CHEERING</span>
+                </li>
+
+                <li data-key="s" class="key">
+                    <kbd>S</kbd>
+                    <span class="sound">LAUGHING CROWD</span>
+                </li>
+
+                <li data-key="d" class="key">
+                    <kbd>D</kbd>
+                    <span class="sound">EXPLOSION</span>
+                </li>
+
+                <li data-key="f" class="key">
+                    <kbd>F</kbd>
+                    <span class="sound">DRUM ROLL</span>
+                </li>
+                <li data-key="q" class="key">
+                    <kbd>Q</kbd>
+                    <span class="sound">DISAPPOINMENT</span>
+                </li>
+                <li data-key="e" class="key">
+                    <kbd>E</kbd>
+                    <span class="sound">PLUH</span>
+                </li>
+                <li data-key="r" class="key">
+                    <kbd>R</kbd>
+                    <span class="sound">EMOTIONAL DAMAGE</span>
+                </li>
+                <li data-key="z" class="key">
+                    <kbd>Z</kbd>
+                    <span class="sound">YOU'RE FINE</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <audio data-key="a" src="assets/sounds/freesound_community-kids-clapping-plougraswav-14528.mp3"></audio>
+    <audio data-key="s" src="assets/sounds/ribhavagrawal-laughing-crowd-sound-effect-type-01-294192.mp3"></audio>
+    <audio data-key="d" src="assets/sounds/soundreality-explosion-fx-343683.mp3"></audio>
+    <audio data-key="f" src="assets/sounds/47660826-drum-roll-sound-effect-278576.mp3"></audio>
+    <audio data-key="q" src="assets/sounds/crowd-disappointment-icarly.mp3"></audio>
+    <audio data-key="e" src="assets/sounds/pluh.mp3"></audio>
+    <audio data-key="r" src="assets/sounds/emotional-damage-meme.mp3"></audio>
+    <audio data-key="z" src="assets/sounds/they-ask-you-how-you-are-and-you-just-have-to-say-that-youre-fine-sound-effect_IgYM1CV.mp3"></audio>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
