@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #1a1a2e;
+  --bg-color: #E0CA3C;
   --key-color: #ffffff;
   --glow-color: #00d4ff;
   --text-color: #e2e8f0;
@@ -7,6 +7,7 @@
 
 body {
   background-color: var(--bg-color);
+  background-image: linear-gradient( rgba(0, 0, 0, .25), rgba(0, 0, 0, 0.25) ),url('assets/images/laughingEmoji.jpg');
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -32,7 +33,11 @@ h1 {
 
 /* 1. Reset the List Styling */
 .keys {
+  /* display: grid;
+  grid-template-columns: repeat(2,1fr); */
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 1.5rem;
   padding: 0;         /* Removes default UL padding */
   list-style: none;   /* Removes bullet points */
