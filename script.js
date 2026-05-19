@@ -60,24 +60,3 @@ document.querySelector('.keys').addEventListener('click', function (event) {
     if (!keyItem) return;
     playSound(keyItem.dataset.key);
 });
-
-// function stop(key) {
-//     //stop sounds
-//     const audio = document.querySelector(`audio[data-key="${key}"]`);
-
-//     //To Stop it
-//     audio.load();
-//     audio.pause();
-//     audio.currentTime = 0;
-
-// };
-
-// window.addEventListener('keydown', function (event) {
-//     stop(event.key.toLowerCase());
-// });
-
-// document.querySelector('.keys').addEventListener('click', function (event) {
-//     const keyItem = event.target.closest('li[data-key]');
-//     if (!keyItem) return;
-//     stop(keyItem.dataset.key)
-// });
