@@ -125,6 +125,11 @@ h1 {
   background-size: 100% 95%;
   background-repeat: no-repeat;
 }
+#fourtenth{
+  background-image: linear-gradient( rgba(0, 0, 0, .25), rgba(0, 0, 0, 0.25) ),url('assets/images/mayonnaise.jpg');
+  background-size: 100% 95%;
+  background-repeat: no-repeat;
+}
 
 /* Semantic Note: <kbd> is already a semantic tag for keyboard input! */
 kbd {
